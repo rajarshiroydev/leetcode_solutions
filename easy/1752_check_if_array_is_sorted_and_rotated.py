@@ -3,7 +3,7 @@ class Solution:
         count = 0
 
         '''
-        logic: if there are more than one drop in value in adjacent elements then
+        logic: if there is more than one drop in value in adjacent elements then
         the array was never sorted in the initial state. so we are just checking
         the count of drop in values between consecutive elements.
         '''
